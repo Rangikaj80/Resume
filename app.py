@@ -27,7 +27,7 @@ PROJECTS = {
     "🏆 Sales Dashboard - Comparing sales across three stores": "https://www.novypro.com/profile_projects/jayanathjayarathna",
     "🏆 Retail Shop Profit DashBoard - Python streamlit": "https://sbmprofitdashboard.streamlit.app/",
     "🏆 Business Management System - Python streamlit and sqlight": "https://sbmstcom-gn.streamlit.app/",
-    "🏆 Next Month Stock Purchasing Prediction - Python streamlit machine learning and pycafe": "https://py.cafe/app/Rangikaj80/streamlit-stock-quantity-prediction",
+    "🏆 Brest Cancer Prediction - Python streamlit machine learning radar chart": "https://canserapp.streamlit.app/",
     }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -87,6 +87,7 @@ st.write(
 - 📊 Data Visulization: PowerBi, MS Excel, Plotly, Google Sheet
 - 📚 Modeling: Logistic regression, linear regression, Random forest, XGboost
 - 🗄️ Databases: Postgres, MongoDB, MySQL
+- 🤖 Deep Learning: Genarative AI, Langchain, RAG, ollama
 """
 )
 
@@ -136,9 +137,10 @@ st.subheader("Certificates")
 st.write("---")
 
 CERTIFICATES = {
-    "Certificate 1: Data Science Basics": current_dir / "assets" / "BCG_DataScience.pdf",
-    "Certificate 2: Artifical Intelligences": current_dir / "assets" / "AI_Hungary.pdf",
-    "Certificate 3: PowerBI for Data Analysis": current_dir / "assets" / "PowerBI.pdf",
+    "Certificate 1 Mba in data science": current_dir / "assets" / "mba_data_science.pdf",
+    "Certificate 2: Degree of Statistic & Computer Science": current_dir / "assets" / "degree_certificate.pdf",
+    "Certificate 3: Business Management": current_dir / "assets" / "BusinessManagement.pdf",
+    "Certificate 4: Other Certification & Achievements": current_dir / "assets" / "otherCertificates.pdf",
 }
 
 for cert_name, cert_path in CERTIFICATES.items():
